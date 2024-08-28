@@ -1,3 +1,5 @@
+// ignore_for_file: file_names, library_private_types_in_public_api, use_build_context_synchronously
+
 import 'package:Tuku/screens/homePage.dart';
 import 'package:flutter/material.dart';
 
@@ -27,12 +29,12 @@ class _SplashScreenState extends State<SplashScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: const Color(0XFF36315E),
-      body: Center(
-        child: Column(
+    return const Scaffold(
+      backgroundColor:  Color(0XFF36315E),
+      body:  Center(
+        child:  Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: const [
+          children:  [
             Text(
               'Toku',
               style: TextStyle(

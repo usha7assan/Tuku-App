@@ -4,7 +4,6 @@ import 'package:Tuku/Classes/itemClass.dart';
 import 'package:Tuku/components/phasesItem.dart';
 import 'package:flutter/material.dart';
 
-
 class Phases extends StatelessWidget {
   const Phases({super.key});
 

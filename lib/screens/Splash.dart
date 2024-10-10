@@ -30,11 +30,11 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      backgroundColor:  Color(0XFF36315E),
-      body:  Center(
-        child:  Column(
+      backgroundColor: Color(0XFF36315E),
+      body: Center(
+        child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children:  [
+          children: [
             Text(
               'Toku',
               style: TextStyle(
